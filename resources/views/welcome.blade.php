@@ -3,8 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        @extends('layouts.app')
 
-        <title>Laravel</title>
+            @section('title')
+                Todo App
+            @endsection
+
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -81,7 +85,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <a href="/todos">Todos</a>
+                    <a class="" href="/todos">Todos</a>
                 </div>
             </div>
         </div>
